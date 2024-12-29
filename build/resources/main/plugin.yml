@@ -1,0 +1,18 @@
+name: FixShulker
+version: '1.0'
+main: com.marmok.fixshulker.FixShulker
+api-version: '1.20'
+authors: [ marmok ]
+depend: [NBTAPI]
+commands:
+  fixshulkerreload:
+    description: Перезагрузить конфигурацию плагина.
+    usage: /fixshulkerreload
+    permission: fixshulker.reload
+permissions:
+  fixshulker.reload:
+    description: Позволяет использовать команду /fixshulkerreload для перезагрузки конфига.
+    default: op
+  fixshulker.notify:
+    description: Получение уведомлений о попытках создания/использования вредоносных предметов.
+    default: op

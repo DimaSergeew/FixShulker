@@ -1,0 +1,12 @@
+# FixShulker Configuration
+
+# Максимальная длина CustomName (имя предмета)
+max_custom_name_length: 100
+
+# Максимальная глубина вложенности NBT
+max_nbt_depth: 10
+
+# Список паттернов (ключевых слов), которые не должны быть в CustomName
+blocked_patterns:
+  - "translate"
+  - "with"
